@@ -1,4 +1,4 @@
-// 평균구하기
+// 평균구하기 // Finish
 // https://school.programmers.co.kr/learn/courses/30/lessons/12944
 package Lv1;
 

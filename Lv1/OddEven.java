@@ -1,4 +1,4 @@
-// 짝수와 홀수
+// 짝수와 홀수 // Finish
 // https://school.programmers.co.kr/learn/courses/30/lessons/12937
 package Lv1;
 
