@@ -2,28 +2,22 @@ package Lv1;
 
 public class A_TestBoard {
     public static void main(String[] args) {
-        String s = "aabbcc";
-        int[] answer = new int[s.length()];
-        for (int i = 0; i < answer.length; i++) {
-            answer[i]=-1;
-        }
-        for (int i = 0; i < answer.length; i++) {
-            System.out.print(answer[i]+",");
-        }
-        System.out.println("");
+        long n1 =  82;
+        long n2 =  81;
+        
+        double x1 = Math.sqrt(n1); // n의 제곱근
+        System.out.println(x1);
+        double x2 = Math.sqrt(n2); // n의 제곱근
+        System.out.println(x2);
 
-        for (int i = 1; i < s.length(); i++) {
-            for (int j=i-1; j > 0; j--) {
-                if (s.charAt(i)==s.charAt(j)) {
-                    answer[i]=i-j;
-                    break;
-                }
-            }
-        }
-        // i=1 j=0 >> 
-        for (int i = 0; i < answer.length; i++) {
-            System.out.print(answer[i]+",");
-        }
-        System.out.println("");
+        System.out.println(x1%1);
+        System.out.println(x2%1);
+       
+        // if(x%1==0){
+        //     long answer = (x+1)*(x+1);
+        //     System.out.println(answer);
+        // }else{
+        //     System.out.println(-1);
+        // }
     }
 }
